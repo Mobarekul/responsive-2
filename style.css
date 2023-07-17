@@ -138,8 +138,10 @@ main {
   padding-bottom: 32px;
   text-align: center;
 }
-.fact-title {
+.fact-title,
+.fact-description {
   margin-bottom: 24px;
+  margin-left: 10px;
 }
 .box1 {
   background: #fff;
@@ -164,6 +166,43 @@ main {
   display: flex;
   justify-content: space-between;
 }
+/* Facts Sections finished */
+.sponsors-description {
+  color: var(--dark-03, #727272);
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 1rem;
+
+  font-weight: 400;
+}
+.sponsors-title {
+  color: var(--dark-01, #131313);
+  font-family: Work Sans;
+  font-size: 3.7rem;
+  text-align: center;
+  margin-bottom: 24px;
+
+  font-weight: 700;
+  margin-top: 240px;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.logo > img {
+  mix-blend-mode: luminosity;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  border-radius: 8px;
+  background: #fff4e7;
+  padding: 39px 410px;
+  margin: 150px 240px;
+}
 
 /* Responsive styles */
 @media screen and (max-width: 1023px) {
@@ -179,5 +218,9 @@ main {
   }
   .grid-images {
     display: block;
+  }
+  .rectangle {
+    flex-wrap: wrap;
+    margin: 10px;
   }
 }
