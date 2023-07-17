@@ -188,8 +188,9 @@ main {
 
 .logo {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin-top: 50px;
+  align-items: center;
 }
 .logo > img {
   mix-blend-mode: luminosity;
@@ -222,5 +223,20 @@ main {
   .rectangle {
     flex-wrap: wrap;
     margin: 10px;
+  }
+  .footer {
+    margin: 10px;
+    padding: 20px;
+  }
+  .logo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    flex-direction: column;
+
+    margin: 0 auto;
+  }
+  .sponsors-description {
+    margin-bottom: 20px;
   }
 }
