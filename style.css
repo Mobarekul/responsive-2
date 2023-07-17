@@ -138,6 +138,34 @@ main {
   padding-bottom: 32px;
   text-align: center;
 }
+.fact-title {
+  margin-bottom: 24px;
+}
+.box1 {
+  height: 242px;
+  width: 242px;
+  background: #fff;
+  border: #ff900e solid;
+  text-align: center;
+  color: var(--dark-02, #424242);
+  font-family: Work Sans;
+  font-size: 45px;
+
+  padding-top: 60px;
+}
+.box-description {
+  color: var(--dark-03, #727272);
+  font-family: Work Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.rectangle {
+  display: flex;
+  justify-content: space-between;
+}
+
 /* Responsive styles */
 @media screen and (max-width: 1023px) {
   nav {
